@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 255, 0));
+    font-family: sans-serif;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 30px auto;
+}
+.title {
+    text-align: center;
+}
+.colors {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.css-text {
+    margin-top: 10px;
+    text-align: center;
+}
