@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+body {
+    background-color: #E5E8E8;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    padding: 0px 20px;
+}
+.component {
+    margin: 50px auto 0px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 10px;
+    overflow: hidden;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.component__upper-content {
+    background-color: #F8F9F9;
+    padding: 0px 30px;
+}
+
+.upper-content__title {
+    color: #299f91;
+    font-weight: 700;
+
+
+    padding: 0px;
+    margin: 30px 0px 10px;
+}
+.upper-content__subtitle {
+    color: #c2df2c;
+
+    padding: 0px;
+    margin: 23px 0px 10px;
+}
+.upper-content__info {
+    color: #b7bcc1;
+
+    padding: 0px;
+    margin: 15px 0px 30px;
+}
+.component__lower-content {
+    display: flex;
+
+    color: #fff;
+}
+
+.lower-content__subscribe {
+    background-color: #2bb3b1;
+    flex: 1 1 300px;
+
+    padding: 0px 30px;
+}
+.lower-content__subscribe-title {
+    margin: 30px 0px 0px;
+}
+.h4-title {
+    color: #fff;
+    font-weight: 600;
+}
+.lower-content__price {
+    margin: 20px 0px 0px;
+}
+.lower-content__price::after {
+    content: 'per month';
+    color: #7ad1d1;
+    font-size: 14px;
+    vertical-align: middle;
+
+    margin-left: 10px;
+}
+.lower-content__info {
+    color: #93f0f1;
+    font-weight: 600;
+
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.lower-content__button {
+    background-color: #bfdf32;
+    color: #fff;
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: 15px;
+
+    cursor: pointer;
+
+    border: 0;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+    padding: 15px calc(50% - 25px);
+
+    margin: 30px 0px 30px;
+}
+.lower-content__button:active {
+    color: #f7eded;
+    background-color: #95ad26;
+}
+.lower-content__why-us {
+    background-color: #4abebd;
+    flex: 1 1 300px;
+
+    padding: 0px 30px;
+}
+.lower-content__why-us-title {
+    margin: 30px 0px 20px;
+}
+.lower-content__ul {
+}
+.lower-content__li {
+    color: #8ceeed;
+    font-size: 14px;
+
+    margin: 0px 0px 3px;
+}
