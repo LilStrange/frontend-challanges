@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper__body">
+            <h2 class="wrapper__title">
+                Password Generator
+            </h2>
+            <div class="wrapper__display">
+                <input class="display__input" id="display" type="text" placeholder="Click Generate" disabled>
+            </div>
+            <div class="wrapper__password-length">
+                <h6 class="wrapper__info" id="password-length-info">Length: 4</h6>
+                <div class="wrapper__range password">
+                    <span class="password__range-number">4</span>
+                    <input class="password__range" id="password-length" type="range" min="4" max="32" value="4">
+                    <span class="password__range-number">32</span>
+                </div>
+            </div>
+            <div class="wrapper__settings">
+                <h6 class="wrapper__info">Settings</h6>
+                <div class="wrapper__checkboxes">
+                    <div class="checkbox">
+                        <label class="input-label" for="include-uppercase">Include Uppercase</label>
+                        <input type="checkbox" id="include-uppercase">
+                    </div>
+                    <div class="checkbox">
+                        <label class="input-label" for="include-numbers">Include Numbers</label>
+                        <input type="checkbox" id="include-numbers">
+                    </div>
+                    <div class="checkbox">
+                        <label class="input-label" for="include-symbols">Include Symbols</label>
+                        <input type="checkbox" id="include-symbols">
+                    </div>
+                </div>
+                <button class="wrapper__button" id="generate-password">Generate Password</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
